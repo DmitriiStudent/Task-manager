@@ -1,0 +1,62 @@
+.addTask-background {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+.addTask {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85vh;
+    padding: 2vh;
+    margin: 1vh;
+    background-color: white;
+    box-shadow: 0.3vh 0.3vh 1vh #281b44, 0.3vh 0.3vh 1vh #281b44;
+    border-radius: 2vh;
+}
+.addTask-inputBlock {
+    flex: 1;
+}
+.addTask-headerInput {
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-shrink: 0;
+
+    font-size: 3vh;
+
+    width: 70vh;
+}
+.addTask-contentInput {
+    display: block;
+    margin: 2vh 0;
+    flex-shrink: 0;
+
+    font-size: 2vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70vh;
+}
+.addTask-buttonsBlock {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+.addTask-buttonsBlock button {
+    display: block;
+
+    padding: 1vh;
+    margin: 1vh 1vh;
+}

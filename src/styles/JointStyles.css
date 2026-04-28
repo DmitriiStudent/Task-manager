@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    padding: 2vh;
+    border-bottom: 0.5vh solid #b7a0ec;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2vh;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-navBlock {
+    height: 100%;
+}
+.nav-navBlock a {
+
+    height: 100%;
+    padding: 2vh;
+    margin-bottom: -0.5vh;
+
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.nav-navBlock a:hover {
+    background-color: #d5c5fa;
+}
+.nav-addNewTask {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    padding: 2vh;
+
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.nav-addNewTask:hover {
+    background-color: #d5c5fa;
+}

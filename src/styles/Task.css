@@ -1,0 +1,49 @@
+.Task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85vh;
+    padding: 2vh;
+    margin: 1vh;
+    background-color: white;
+    box-shadow: 0.3vh 0.3vh 1vh #d5c5fa, 0.3vh 0.3vh 1vh #d5c5fa;
+    border-radius: 2vh;
+}
+
+.Task div {
+    flex: 1;
+}
+
+.Task h1 {
+    font-size: 3vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7046d3;
+}
+.Task p {
+    padding: 2vh 0;
+
+    width: 70vh;
+
+    font-size: 2vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Task input {
+    flex-shrink: 0;
+    margin: 0 3vh; 
+
+    cursor: pointer;
+
+
+    width: 3vh;
+    height: 3vh;
+
+    accent-color: #7046d3;
+}
+.Task button {
+    cursor: pointer;
+
+    width: 3vh;
+    height: 3vh;
+}
